@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback</title>
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/schedule.html">Termine</a></li>
+            <li><a href="/feedback.html">Kontakt</a></li>
+            <li><a href="/about.html">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Feedback</h1>
+    </header>
+
+    <section>
+        <article>
+            <p>Falls Sie Fragen an uns haben, bitte füllen Sie das untenstehende Formular aus, wir melden uns bei Ihnen!</p>
+        </article>
+
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Ihre Details</legend>
+                    <div>
+                        <strong>Name:</strong>
+                        <input id="UserName" name="UserName" autocomplete="on" required />
+                    </div>
+                    <div>
+                        <strong>Email:</strong>
+                        <input id="Email" name="Email" type="email" autocomplete="on" required />
+                    </div>
+                    <div>
+                        <strong>Ihre Frage:</strong>
+                        <textarea id="Message" name="Message" cols="30" rows="10"
+                                  placeholder="bitte teilen Sie uns mit, wo der Schuh drückt.."></textarea>
+                    </div>
+                    <input type="submit" value="Absenden" />
+                    <input type="reset" value="Reset" />
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <hr />
+        <p>
+            &copy; 2015 - Berndt Hamböck
+        </p>
+    </footer>
+
+</body>
+</html>

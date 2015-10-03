@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback</title>
+
+    <!--<link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />-->
+    <!--<link href="Content/cerulean.bootstrap.css" rel="stylesheet" />-->
+    <link href="Content/united.bootstrap.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
+</head>
+<body class="container">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TechConference</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/schedule.html">Termine</a></li>
+                    <li class="active"><a href="/feedback.html">Kontakt</a></li>
+                    <li><a href="/about.html">Impressum</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+     <header>
+        <h1>Feedback <span class="glyphicon glyphicon-pencil"></span></h1>
+    </header>
+
+    <section>
+        <article>
+            <p class="info error">Falls Sie Fragen an uns haben, bitte füllen Sie das untenstehende Formular aus, wir melden uns bei Ihnen!</p>
+        </article>
+
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Ihre Details</legend>
+                    <div class="form-group">
+                        <strong>Name:</strong>
+                        <input class="form-control" id="UserName" name="UserName" autocomplete="on" required />
+                    </div>
+                    <div class="form-group">
+                        <strong>Email:</strong>
+                        <input class="form-control" id="Email" name="Email" type="email" autocomplete="on" required />
+                    </div>
+                    <div class="form-group">
+                        <strong>Ihre Frage:</strong>
+                        <textarea  class="form-control" id="Message" name="Message" cols="30" rows="10"
+                                  placeholder="bitte teilen Sie uns mit, wo der Schuh drückt.."></textarea>
+                    </div>
+                    <input class="btn btn-info" type="submit" value="Absenden" />
+                    <input class="btn btn-danger"  type="reset" value="Reset" />
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <hr />
+        <p>
+            &copy; 2015 - Berndt Hamböck
+        </p>
+    </footer>
+
+
+</body>
+</html>
